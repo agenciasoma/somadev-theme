@@ -34,7 +34,7 @@ function login_enqueue_scripts(){ ?>
                 margin-bottom: 0 !important;
             }
             .login h1 a {
-                background: url('<?php echo get_bloginfo('template_directory') ?>/src/images/logo-organa.png') no-repeat center top !important;
+                background: url('<?php echo get_bloginfo('template_directory') ?>/src/images/logo-somadev.png') no-repeat center top !important;
                 margin-bottom: 20px !important;
                 padding-bottom: 0px;
                 width: 325px !important;

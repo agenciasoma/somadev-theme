@@ -4,11 +4,7 @@ $botao = 'Continue lendo';
 <div class="container-page">
 	<div class="header-page" style="background: url('<?php bloginfo('template_url'); ?>/src/images/bg-blog.jpg') no-repeat center center;background-size: cover;">
 		<div class="center">
-			<?php if ($image != ""): ?>
-				<img src="<?php echo $image['url']; ?>" alt="<?php single_cat_title(); ?>">
-			<?php else: ?>
-				<img src="<?php bloginfo('template_url'); ?>/src/images/icone-blog.png">
-			<?php endif ?>
+			<img src="<?php bloginfo('template_url'); ?>/src/images/icone-blog.png">
 			<h1 class="title">Blog</h1>
 		</div>
 	</div>
@@ -19,7 +15,7 @@ $botao = 'Continue lendo';
 					<div class="col">
 						<div class="item">
 							<a href="./blanditiis-velit-esse-cumque-minima-consequatur/" title="Blanditiis velit esse cumque minima consequatur">
-								<img src="./wp-content/themes/somadev-theme/src/images/no-thumb-post-big.jpg">
+								<img src="./wp-content/themes/somadev-theme-master/src/images/no-thumb-post-big.jpg">
 							</a>
 							<div class="wrapper">
 								<div class="category">
@@ -40,7 +36,7 @@ $botao = 'Continue lendo';
 					<div class="col">
 						<div class="item item-small">
 							<a href="./atque-enim-consectetur-quod/" title="Atque enim consectetur quod">
-								<img src="./wp-content/themes/somadev-theme/src/images/no-thumb-post-small.jpg">
+								<img src="./wp-content/themes/somadev-theme-master/src/images/no-thumb-post-small.jpg">
 							</a>
 							<div class="wrapper">
 								<div class="category">
@@ -57,7 +53,7 @@ $botao = 'Continue lendo';
 						</div>
 						<div class="item item-small">
 							<a href="./lorem-ipsum-dolor-sit-amet/" title="Lorem ipsum dolor sit amet">
-								<img src="./wp-content/themes/somadev-theme/src/images/no-thumb-post-small.jpg">
+								<img src="./wp-content/themes/somadev-theme-master/src/images/no-thumb-post-small.jpg">
 							</a>
 							<div class="wrapper">
 								<div class="category">
@@ -79,7 +75,7 @@ $botao = 'Continue lendo';
 				<div class="item">
 					<div class="wrapper">
 						<div class="image">
-							<img src="./wp-content/themes/somadev-theme/src/images/no-thumb-big.jpg">
+							<img src="./wp-content/themes/somadev-theme-master/src/images/no-thumb-big.jpg">
 						</div>
 						<div class="text">
 							<h2>
@@ -99,7 +95,7 @@ $botao = 'Continue lendo';
 				<div class="item">
 					<div class="wrapper">
 						<div class="image">
-							<img src="./wp-content/themes/somadev-theme/src/images/no-thumb-big.jpg">
+							<img src="./wp-content/themes/somadev-theme-master/src/images/no-thumb-big.jpg">
 						</div>
 						<div class="text">
 							<h2><a href="#" title="Dolor impedit soluta perspiciatis fugiat">Dolor impedit soluta perspiciatis fugiat</a></h2>
