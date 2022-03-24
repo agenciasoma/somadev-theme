@@ -21,47 +21,22 @@ wp_footer(); ?>
 						?>
 					</div>
 					<div class="col">
-						<?php if(ICL_LANGUAGE_CODE == 'es'): ?>
-							<h5>Consultoría</h5>
-						<?php else: ?>
-							<h5>Consultoria</h5>
-						<?php endif; ?>
+						<h5>Consultoria</h5>
 						<ul>
-							<?php
-								$current_page_ids = array( get_the_ID());
-								$post_id = get_post($post->ID)->ID;
-								$query = new WP_Query(array(
-									'post_type' => 'consultoria',
-									'posts_per_page' => 6,
-									'order' => 'DESC'
-								));
-							?>
-							<?php while ( $query->have_posts() ) : $query->the_post();
-								?>
-							<li><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></li>
-							<?php endwhile; ?>
-							<?php wp_reset_postdata(); ?>
+							<li><a href="http://">Item 1</a></li>
+							<li><a href="http://">Item 2</a></li>
+							<li><a href="http://">Item 3</a></li>
 						</ul>
 					</div>
 					<div class="col col-last">
-						<?php if(ICL_LANGUAGE_CODE == 'es'): ?>
-							<h5>Siga la Organa</h5>
-							<span>Nos acompañe en las redes sociales</span>
-						<?php else: ?>
-							<h5>Siga a Organa</h5>
-							<span>Nos acompanhe nas redes sociais</span>
-						<?php endif; ?>
-						<?php if ( ! dynamic_sidebar( 'redessociais' ) ) : endif; ?>
+						<h5>Siga-nos</h5>
+						<span>Nos acompanhe nas redes sociais</span>
 					</div>
 				</div>
 			</div>
 			<div class="description-footer">
 				<div class="center">
-					<?php if(ICL_LANGUAGE_CODE == 'es'): ?>
-						<span>Todos los derechos reservados - 2019</span>
-					<?php else: ?>
-						<span>Todos os direitos reservados - 2019</span>
-					<?php endif; ?>
+					<span>Todos os direitos reservados - 2019</span>
 				</div>
 			</div>
 			<span class="top-button"></span>
